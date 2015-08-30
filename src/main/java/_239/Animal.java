@@ -1,4 +1,4 @@
 package _239;
 
-public abstract class Animal {
+public class Animal {
 }

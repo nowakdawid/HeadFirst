@@ -7,6 +7,8 @@ public class MyAnimalListTest {
         MyAnimalList MyAnimalList = new MyAnimalList();
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Animal a = new Cat();
+        cat = (Cat)a;
         MyAnimalList.addAnimal(dog);
         MyAnimalList.addAnimal(cat);
         MyAnimalList.addAnimal(dog);
