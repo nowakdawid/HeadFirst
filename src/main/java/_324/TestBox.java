@@ -6,8 +6,13 @@ public class TestBox {
 
     public static void main (String[] args) {
         TestBox t = new TestBox();
-        t.go();
+        //t.go();
+
+        String s = String.format("I have %.2f, bugs to fix.", 476578.09876);
+        System.out.println(s);
+
     }
+
     public void go() {
         j=i;
         System.out.println(j);
