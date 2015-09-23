@@ -14,8 +14,8 @@ public class Panel1 {
         JPanel panel = new JPanel();
         panel.setBackground(Color.darkGray);
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-
-        JButton button = new JButton("shock me");
+        System.out.println("±ê³ó¼ñ");
+        JButton button = new JButton("shock±ê³ó¼ñ me");
         JButton buttonTwo = new JButton("bliss");
         JButton buttonThree = new JButton("huh?");
         panel.add(button);
