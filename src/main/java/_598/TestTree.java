@@ -1,5 +1,8 @@
 package _598;
 
+import _239.Animal;
+
+import java.util.ArrayList;
 import java.util.TreeSet;
 
 public class TestTree {
@@ -17,6 +20,7 @@ public class TestTree {
         tree.add(b2);
         tree.add(b3);
         System.out.println(tree);
+
     }
 
 }

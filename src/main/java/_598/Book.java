@@ -1,6 +1,6 @@
 package _598;
 
-public class Book implements Comparable<Book> {
+public class Book extends Shelf implements Comparable<Book> {
 
     String title = "";
 
