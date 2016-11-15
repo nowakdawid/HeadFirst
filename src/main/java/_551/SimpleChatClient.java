@@ -47,18 +47,6 @@ public class SimpleChatClient {
         frame.setVisible(true);
     } // close go
 
-    private void setUpNetworking() {
-        try {
-            sock = new Socket("127.0.0.1",5000);
-            InputStreamReader streamReader = new InputStreamReader(sock.getInputStream());
-            reader = new BufferedReader(streamReader);
-            writer = new PrintWriter(sock.getOutputStream());
-            System.out.println("networking established");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
-    } // close setUpNetworking
-
     public class SendButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent ev) {
             try {
